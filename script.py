@@ -17,5 +17,5 @@ if __name__ == '__main__':
     driver.find_element_by_xpath(".//*[@id='datepicker2']").click()
     time.sleep(2)
     driver.find_element_by_xpath("//a[text()='26']").click()
-    time.sleep(3)
+    time.sleep(2)
     driver.find_element_by_xpath(".//*[@id='roundTrip']/a").click()
