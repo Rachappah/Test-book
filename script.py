@@ -16,5 +16,5 @@ if __name__ == '__main__':
     driver.find_element_by_xpath(".//*[@id='carsLandingForm']/div[3]/div[4]/table/tbody/tr/td[2]/div/p/span[1]/span/a").click()
     driver.find_element_by_xpath(".//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[2]/td[6]/a").click()
     driver.find_element_by_xpath(".//*[@id='customerEmail']").send_keys("Rachappahalinge@gmail.com")
-    time.sleep(1)
+    time.sleep(2)
     driver.find_element_by_xpath(".//*[@id='localbooking']").click()
